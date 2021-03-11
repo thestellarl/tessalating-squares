@@ -1,5 +1,5 @@
 -- Group members:
---      Lucas Stella
+--    Lucas Stella
 -- Grading notes: 15pts total
 --  * 2pts checkExpr
 --  * 4pts checkCmd

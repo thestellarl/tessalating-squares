@@ -30,11 +30,11 @@ type Line = (Point, Point)
 
 -- | Output a list of lines as an HTML5 file containing an SVG image.
 toHTML :: [Line] -> IO ()
-toHTML ls = writeFile "MiniLogo.html" (header ++ content ls ++ footer)
+toHTML ls = writeFile "TesselatingSquares.html" (header ++ content ls ++ footer)
 
 -- | Alternate version of 'toHTML' that adds a grid to the background.
 toGridHTML :: [Line] -> IO ()
-toGridHTML ls = writeFile "MiniLogo.html" (header ++ grid ++ content ls ++ footer)
+toGridHTML ls = writeFile "TesselatingSquares.html" (header ++ grid ++ content ls ++ footer)
 
 
 --
